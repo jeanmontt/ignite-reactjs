@@ -33,7 +33,7 @@ module.exports = {
       {
         test: /\.scss$/, //utilizado uma expressão regular para verificar se o arquivo é .css
         exclude: /node_modules/, //exclui todos arquivos que estão dentro da pasta node_modules, pois por padrão os arquivos desta pasta já são arquivos prontos para leitura do browser e não deve ser modificado. Cada biblioteca deve se preocupar com seu próprio processo de build do aquivo para que o browser entenda.
-        use: ['style-loader', 'css-loader', 'sass-loader'] //utiliza o Style Loader, CSS Loader e SASS Loader para fazer a converção do arquivo .scss
+        use: ['style-loader', 'css-loader', 'sass-loader'] //utiliza o Style Loader, CSS Loader e SASS Loader para fazer a conversão do arquivo .scss
       }
     ],
   }
